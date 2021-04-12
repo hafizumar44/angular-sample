@@ -1,0 +1,127 @@
+/* You can add global styles to this file, and also import other style files */
+.fa-eye{
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.fa-edit{
+  font-size: 20px;
+  color: #198754;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.fa-user-secret{
+  font-size: 20px;
+  color: #198754;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.fa-trash{
+  font-size: 20px;
+  color: red;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.mat-icon{
+  vertical-align: middle;
+}
+table th, td{
+  padding: 1.5rem 0.8rem !important;
+}
+.btn-theme {
+  color: #fff !important;
+  background-color: #F16B52 !important;
+  border-color: #F16B52 !important;
+}
+.submit {
+  background: #F16B52 !important;;
+  border: none !important;
+  width: 100%;
+  padding: 13px !important;
+}
+.modal-content{
+  padding: 20px;
+}
+
+input, select, textarea{
+  padding: 10px !important;
+    border: 2px solid #346cb0 !important;
+}
+
+.form-label{
+  font-size: 12px;
+}
+.colorTheme{
+  color: #346cb0;
+}
+i{
+  cursor: pointer;
+}
+.modal-title{
+  font-size: 20px !important;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+.btn-close{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.sidenav .selected{
+  font-weight: 900;
+  color: #252947  !important;
+}
+*{
+  font-family: giloryLight;
+}
+.tblImg{
+  width: 80px;
+  height: 40px;
+}
+#viewModal .modal-dialog {
+  max-width: 800px;
+  margin: 1.75rem auto;
+}
+/* validation css */
+input.ng-touched.ng-invalid {
+  border: 2px solid #F16B52 !important;
+}
+input[type='file'].ng-touched.ng-invalid {
+  border: 2px solid #346cb0 !important;
+}
+.form-control:focus {
+  outline: none !important;
+}
+
+select.ng-touched.ng-invalid {
+  border: 2px solid #F16B52 !important;
+}
+
+textarea.ng-touched.ng-invalid {
+  border: 2px solid #F16B52 !important;
+}
+
+.validation-error {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #F16B52 !important;
+}
+
+.error-color {
+  font-weight: 600 !important;
+  color: #F16B52 !important;
+}
+
+.custom-error {
+  border: 2px solid #F16B52 !important;
+}
+
+a:hover, a mat-icon{
+  cursor: pointer;
+}
+/* Validation css end */

@@ -1,0 +1,11 @@
+<app-header *ngIf="isLanding"></app-header>
+<div *ngIf="isLanding" class="w3-sidebar w3-bar-block w3-card w3-animate-left" id="mySidebar">
+  <app-sidebar></app-sidebar>
+</div>
+<div id="main" [class.mainContent]="!isLanding" style="padding: 60px 20px 90px 20px;">
+  <ngx-spinner bdColor="rgba(51,51,51,0.8)" size="medium" color="#fff" type="ball-scale-multiple">
+    <p style="font-size: 20px; color: white">Loading...</p>
+  </ngx-spinner>
+  <router-outlet (activate)="handleHeader()"></router-outlet>
+</div>
+<app-footer *ngIf="isLanding"></app-footer>

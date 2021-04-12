@@ -1,0 +1,30 @@
+#mySidebar{
+  background: #f6f7f9 !important;
+  z-index: 0;
+  top: 0;
+}
+.w3-sidebar {
+  height: 100%;
+  width: 270px;
+  background-color: #fff;
+  position: fixed!important;
+  z-index: 1;
+  overflow: auto;
+}
+#main{
+  margin-left: 270px;
+}
+
+.mainContent{
+  margin-left: 0px !important;
+  padding: 0px !important;
+  height: 100%;
+}
+@media screen and (max-width:992px){
+  .w3-sidebar{
+    width: 0px;
+  }
+  #main{
+    margin-left: 0px;
+  }
+}
